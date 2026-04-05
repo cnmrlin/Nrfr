@@ -13,7 +13,7 @@ android {
         minSdk = 26
         targetSdk = 34
         versionCode = 3 //版本更新 +1
-        versionName = "1.0.3" //同步更新版本号 rfr-client/app.go
+        versionName = "1.0.4" //同步更新版本号 rfr-client/app.go
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

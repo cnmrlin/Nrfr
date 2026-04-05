@@ -75,12 +75,13 @@ fun AboutScreen(onBack: () -> Unit) {
                             style = MaterialTheme.typography.titleMedium
                         )
                         Text(
-                            "• 修改 SIM 卡的国家码配置，可用于解除部分应用的地区限制\n" +
+                            text = "• 修改 SIM 卡的国家码配置，可用于解除部分应用的地区限制\n" +
                                     "• 帮助使用海外 SIM 卡时获得更好的本地化体验\n" +
                                     "• 解决部分应用识别 SIM 卡地区错误的问题\n" +
-                                    "• 无需 Root 权限，无需修改系统文件，安全且可随时还原\n" +
                                     "• 支持 Android 8 及以上系统版本\n" +
-                                    "• 支持双卡设备，可分别配置不同国家码",
+                                    "• 支持双卡设备，可分别配置不同国家码\n" +
+                                    "• Android 16+ 需要 Root 权限，Android 15 及以下通过 Shizuku 工作\n" +
+                                    "• Android 15 及以下：不修改系统文件；Android 16+：仅修改系统设置数据库",
                             style = MaterialTheme.typography.bodyMedium
                         )
                     }
