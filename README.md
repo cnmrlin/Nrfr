@@ -240,3 +240,8 @@ cd app
 </div>
 
 [![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
+
+## 🙏 鸣谢
+
+- [Shizuku](https://shizuku.rikka.app/) - 感谢 Shizuku 提供的特权服务支持
+- [Ackites](https://github.com/Ackites) - 感谢原项目作者的开源贡献
